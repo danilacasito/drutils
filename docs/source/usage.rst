@@ -1,34 +1,38 @@
-Usage
+   Usage
 =====
+
+.. note:
+   Remember that this package is in Alpha status
 
 .. _installation:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Dr Utilities, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install danilacasito-drutils
 
-Creating recipes
+Parser Module
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+The parser module haves at this moment only 1 parser, the Argument Parser, Util for commands, and even discord.py bots that use discord.Client
 
-.. autofunction:: lumache.get_random_ingredients
+you can only use ``parser.argparse("'Hello World' 'How are you'")`` that returns ``["Hello World", "How are you"]``
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+>>> from danilacasito_drutils import parser
+>>> parser.argparse("'Hello World' 'How are you'")
+['Hello World', 'How are you']
 
-.. autoexception:: lumache.InvalidKindError
+Network Module
+---------------
 
-For example:
+The Network module haves only 1 function,
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+The function checks if network is available
 
+Example of available network: ``network.checkNetwork()`` that would return ``True``
+
+Not connected on a network: ``network.checkNetwork()`` that would return ``False``

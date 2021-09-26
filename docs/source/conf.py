@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'drutils'
+copyright = '2021, Daniel Sánchez'
+author = 'Daniel Sánchez'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.8'
 
 # -- General configuration
 

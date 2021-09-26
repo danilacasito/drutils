@@ -1,17 +1,14 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to dr utilities's documentation!
+========================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**drutils** (Doctor Utilities) is a Python multi-use library for many things 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+
+Check out the :doc:`usage` section for further information
 
 .. note::
 
-   This project is under active development.
+   This project is in Alpha Status, that means that isn't finished yet
 
 Contents
 --------
