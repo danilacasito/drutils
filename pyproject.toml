@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "danilacasito-drutils"
-version = "0.1.7"
+version = "0.1.8"
 description = "Some Utilities (BETA stage)"
 authors = ["Daniel <danilacasito8@gmail.com>"]
 license = "MIT"

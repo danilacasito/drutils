@@ -1,6 +1,12 @@
 def argparse(text):
 	"""
 	Parses all the arguments of the text that you pass in the first argument and returns a list with your arguments separated
+	
+	Example:
+		parser.argparse('"Hello" "World" "How are you"')
+
+	With the example, it should return:
+		["Hello", "World", "How are you"]
 	"""
 	sho = False
 	args = []
