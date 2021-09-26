@@ -1,9 +1,0 @@
-LICENSE
-README.rst
-setup.py
-danilacasito_drutils.egg-info/PKG-INFO
-danilacasito_drutils.egg-info/SOURCES.txt
-danilacasito_drutils.egg-info/dependency_links.txt
-danilacasito_drutils.egg-info/top_level.txt
-drutils/__init__.py
-drutils/parse.py
